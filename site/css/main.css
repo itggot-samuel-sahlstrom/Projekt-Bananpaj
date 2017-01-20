@@ -3,6 +3,8 @@ body {
 }
 
 .main {
+    height: 667;
+    width: 375;
     display: flex;
     flex-direction: column;
     background-color: lightblue;
@@ -13,6 +15,10 @@ header {
 }
 
 nav {
+
+}
+
+.link{
 
 }
 
