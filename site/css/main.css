@@ -1,0 +1,25 @@
+body {
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+.text {
+
+}
+
+footer {
+
+}
