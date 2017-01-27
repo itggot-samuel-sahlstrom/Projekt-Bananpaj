@@ -1,21 +1,25 @@
 body {
-
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
 }
 
 .main {
-    height: 667px;
-    width: 375px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+
 }
 
 header {
     font-family: sans-serif;
+    height: 100px;
+
 }
 
 nav {
     font-family: sans-serif;
+    height: 20px;
 }
 
 .link{
@@ -23,10 +27,26 @@ nav {
 }
 
 .text {
-
+    min-height: calc(100vh - 180px);
 }
 
 footer {
-
+    background-color: aqua;
+    width: 100%;
+    height: 60px;
 }
 
+.photos{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.photo{
+    flex-grow: 1;
+}
